@@ -3,7 +3,7 @@
 // --------------------------------------------------
 
 //Adriana's variables
-@adriana-gray:		#414141;
+@adriana-gray:			#414141;
 @adriana-lighter-gray: 	#838B83;
 @adriana-cream:		#CCCCCC;
 
@@ -153,8 +153,8 @@
 @btn-default-border:             #ccc;
 
 @btn-primary-color:              #fff;
-@btn-primary-bg:                 @adriana-lighter-gray;    				// changed btn-primary background color
-@btn-primary-border:          @adriana-lighter-gray;					// changed btn-primary border color
+@btn-primary-bg:                 lighten(@adriana-gray, 10%);			// changed btn-primary background color
+@btn-primary-border:          lighten(@adriana-gray, 10%);			// changed btn-primary border color
 
 @btn-success-color:              #fff;
 @btn-success-bg:                 @brand-success;
@@ -698,7 +698,7 @@
 
 @panel-default-text:          @gray-dark;
 @panel-default-border:        #ddd;
-@panel-default-heading-bg:    #f5f5f5;
+@panel-default-heading-bg:    black;
 
 @panel-primary-text:          #fff;
 @panel-primary-border:        @brand-primary;
@@ -736,7 +736,7 @@
 @thumbnail-border-radius:     @border-radius-base;
 
 //** Custom text color for thumbnail captions
-@thumbnail-caption-color:     @text-color;
+@thumbnail-caption-color:     #eee;			//changed - original @text-color
 //** Padding around the thumbnail caption
 @thumbnail-caption-padding:   9px;
 
