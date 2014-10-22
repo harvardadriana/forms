@@ -193,13 +193,16 @@ li {
 <script>
 $(document).ready(function(){
 
+
+// adjust opacity of images
 $('li ').hover(
 	function(){
-		$('li').css({opacity:'1.0'});},
+		$('li:hover').css({opacity:'1.0'});},
 	function(){
 		$('li').css({opacity:'0.3'});
 	});
 
+//
 
 
 });
